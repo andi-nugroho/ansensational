@@ -49,11 +49,11 @@ export function TemplateDetailsModal({
 }: TemplateDetailsModalProps) {
   const [copied, setCopied] = useState(false);
 
-  const scaffoldCommand = `npx ansensational @${template._username}/${template.slug}`;
+  const ansensationalCommand = `npx ansensational @${template._username}/${template.slug}`;
   const displayTags = getDisplayTags(template);
 
   const copyCommand = async () => {
-    await navigator.clipboard.writeText(scaffoldCommand);
+    await navigator.clipboard.writeText(ansensationalCommand);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -117,7 +117,7 @@ export function TemplateDetailsModal({
                         {toTitleCase(template.name)}
                       </DialogTitle>
                       <DialogDescription className="sr-only">
-                        Preview details and the scaffold command for{" "}
+                        Preview details and the ansensational command for{" "}
                         {template.name} by {template.author.name}.
                       </DialogDescription>
                     </div>
@@ -233,7 +233,7 @@ export function TemplateDetailsModal({
                     <div className="flex items-center gap-3 overflow-hidden">
                       <FaTerminal className="text-neutral-600 shrink-0" />
                       <code className="font-mono text-sm text-neutral-300 truncate">
-                        {scaffoldCommand}
+                        {ansensationalCommand}
                       </code>
                     </div>
                     <div className="shrink-0 flex items-center gap-2">

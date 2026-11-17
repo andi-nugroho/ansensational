@@ -57,13 +57,13 @@ export const UI = {
     console.log("");
   },
 
-  scaffoldSuccess: (
+  ansensationalSuccess: (
     slug: string,
     dest: string,
     url: string,
     packageManager: PackageManager | "unknown",
   ) => {
-    UI.success(`Successfully scaffolded @${slug} into ${dest}`);
+    UI.success(`Successfully ansensationaled @${slug} into ${dest}`);
 
     const manager = packageManager === "unknown" ? "npm" : packageManager;
     const installCommand =

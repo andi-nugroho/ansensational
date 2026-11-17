@@ -11,7 +11,7 @@ export const SITE_NAME = "ANSensational";
 export const SITE_TITLE = "ANSensational — Production-ready project templates";
 
 export const SITE_DESCRIPTION =
-  "Discover and scaffold production-ready project templates from GitHub and GitLab. Browse by framework, copy one command, and start with a clean project.";
+  "Discover and ansensational production-ready project templates from GitHub and GitLab. Browse by framework, copy one command, and start with a clean project.";
 
 export const SITE_KEYWORDS = [
   "ansensational",

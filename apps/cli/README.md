@@ -5,7 +5,7 @@
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Node.js](https://img.shields.io/node/v/ansensational.svg)](https://nodejs.org/)
 
-**Scaffold new projects from GitHub or GitLab templates with a single command.**
+**ANSensational new projects from GitHub or GitLab templates with a single command.**
 
 Ansensational is a community-driven template registry and CLI. Discover a
 template, clone it into a clean project, choose how git and your package
@@ -13,7 +13,7 @@ manager should be handled, and start building.
 
 ## Features
 
-- **One-command scaffolding** — `ansensational @author/template my-app`
+- **One-command ansensationaling** — `ansensational @author/template my-app`
 - **GitHub, GitLab, and custom Git hosts** — including URLs that point at a
   branch or subdirectory.
 - **Clean starts** — keep the original history, create a fresh repository, or
@@ -57,7 +57,7 @@ ansensational sync
 # Browse templates
 ansensational list --remote
 
-# Scaffold one
+# ANSensational one
 ansensational @andi-nugroho/nest-backend my-app
 ```
 
@@ -65,8 +65,8 @@ ansensational @andi-nugroho/nest-backend my-app
 
 | Command                                 | Description                                     |
 | --------------------------------------- | ----------------------------------------------- |
-| `ansensational <slug> [dest]`          | Scaffold a template (default command)           |
-| `ansensational scaffold <slug> [dest]` | Explicit form of the same command               |
+| `ansensational <slug> [dest]`          | ANSensational a template (default command)           |
+| `ansensational ansensational <slug> [dest]` | Explicit form of the same command               |
 | `ansensational list`                   | List templates in the local cache               |
 | `ansensational search <query>`         | Search local and remote templates               |
 | `ansensational sync`                   | Download the latest community registry          |
@@ -75,7 +75,7 @@ ansensational @andi-nugroho/nest-backend my-app
 Templates can be referenced as `@author/slug`, `author/slug`, or a bare `slug`
 when the slug is unique.
 
-### Scaffold options
+### ANSensational options
 
 | Option                 | Description                                                  |
 | ---------------------- | ------------------------------------------------------------ |
@@ -88,7 +88,7 @@ when the slug is unique.
 # Non-interactive setup for CI or scripts
 ansensational @andi-nugroho/backend my-api --git fresh --pm pnpm --yes
 
-# Scaffold into the current (empty) directory
+# ANSensational into the current (empty) directory
 ansensational @andi-nugroho/webapp .
 
 # Add files to an existing directory (explicit opt-in)

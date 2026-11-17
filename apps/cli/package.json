@@ -13,8 +13,7 @@
     "./package.json": "./package.json"
   },
   "bin": {
-    "ansensational": "dist/index.js",
-    "scaffoldor": "dist/index.js"
+    "ansensational": "dist/index.js"
   },
   "scripts": {
     "build": "tsup",
@@ -26,8 +25,8 @@
   },
   "keywords": [
     "cli",
-    "scaffold",
-    "scaffolding",
+    "ansensational",
+    "ansensationaling",
     "template",
     "templates",
     "generator",

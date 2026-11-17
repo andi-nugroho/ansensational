@@ -5,7 +5,7 @@ import { listCommand } from "./commands/list";
 import { searchCommand } from "./commands/search";
 import { syncCommand } from "./commands/sync";
 import { addCommand } from "./commands/add";
-import { scaffoldCommand } from "./commands/scaffold";
+import { ansensationalCommand } from "./commands/ansensational";
 import { UI } from "./helpers/ui";
 import {
   CliError,
@@ -18,14 +18,14 @@ const program = new Command();
 
 program
   .name("ansensational")
-  .description("Scaffold new projects from GitHub/GitLab templates")
+  .description("ANSensational new projects from GitHub/GitLab templates")
   .version(VERSION, "-v, --version", "output the version number")
   .showHelpAfterError()
   .showSuggestionAfterError();
 
 program
-  .command("scaffold", { isDefault: true })
-  .description("Scaffold a template (default command)")
+  .command("ansensational", { isDefault: true })
+  .description("ANSensational a template (default command)")
   .argument("[slug]", "Template slug (e.g., @andi-nugroho/backend)")
   .argument("[dest]", "Destination directory")
   .option(
@@ -54,7 +54,7 @@ program
         return;
       }
 
-      await scaffoldCommand(slug, dest, options);
+      await ansensationalCommand(slug, dest, options);
     },
   );
 
@@ -118,7 +118,7 @@ async function main(): Promise<void> {
       process.exit(130);
     }
 
-    const isDebug = process.env.ANSENSATIONAL_DEBUG || process.env.SCAFFOLDOR_DEBUG;
+    const isDebug = process.env.ANSENSATIONAL_DEBUG;
 
     if (error instanceof CliError) {
       UI.error(error.message);

@@ -4,7 +4,7 @@
 
 ### Added
 
-- `scaffold` command (also the default command) with non-interactive flags:
+- `ansensational` command (also the default command) with non-interactive flags:
   `--git`, `--pm`, `--force`, and `--yes`.
 - `--json` output for `list` and `search`.
 - Support for GitHub/GitLab tree URLs that point at a subdirectory.
@@ -27,5 +27,5 @@
 - Non-interactive runs no longer hang on prompts.
 - Tree/subdirectory template URLs are supported instead of being passed to
   `git clone` unchanged.
-- Scaffolding into an existing empty directory works; `--force` is required
+- ANSensationaling into an existing empty directory works; `--force` is required
   for non-empty directories.

@@ -21,7 +21,7 @@ import { UI } from "../helpers/ui";
 import { CliError } from "../helpers/errors";
 import { canPrompt } from "../helpers/prompt";
 
-export interface ScaffoldOptions {
+export interface ANSensationalOptions {
   git?: string;
   pm?: string;
   force?: boolean;
@@ -29,7 +29,7 @@ export interface ScaffoldOptions {
 }
 
 async function resolveGitStrategy(
-  options: ScaffoldOptions,
+  options: ANSensationalOptions,
 ): Promise<GitStrategy> {
   if (options.git) {
     const strategy = options.git.trim().toLowerCase();
@@ -94,10 +94,10 @@ async function prepareDestination(
   return { absoluteDest, exists: true };
 }
 
-export async function scaffoldCommand(
+export async function ansensationalCommand(
   slugInput?: string,
   dest?: string,
-  options: ScaffoldOptions = {},
+  options: ANSensationalOptions = {},
 ) {
   if (!slugInput || !slugInput.trim()) {
     throw new CliError(
@@ -156,7 +156,7 @@ export async function scaffoldCommand(
       ? `\nLearn more: ${template.pricing.purchaseUrl}`
       : "";
     throw new CliError(
-      `"${template.name}" is a premium template and cannot be scaffolded yet.${purchase}`,
+      `"${template.name}" is a premium template and cannot be ansensationaled yet.${purchase}`,
     );
   }
 
@@ -175,7 +175,7 @@ export async function scaffoldCommand(
 
   try {
     UI.info(
-      `Scaffolding @${template.author.github || parsed.author || "local"}/${template.slug}...`,
+      `ANSensationaling @${template.author.github || parsed.author || "local"}/${template.slug}...`,
     );
 
     UI.dim(`Name: ${template.name}`);
@@ -213,7 +213,7 @@ export async function scaffoldCommand(
     }
     placed = true;
 
-    UI.scaffoldSuccess(
+    UI.ansensationalSuccess(
       `${template.author.github || parsed.author || "local"}/${template.slug}`,
       destination,
       template.url,
@@ -229,6 +229,6 @@ export async function scaffoldCommand(
     if (error instanceof CliError) throw error;
 
     const detail = error instanceof Error ? error.message : String(error);
-    throw new CliError(`Scaffolding failed: ${detail}`);
+    throw new CliError(`ANSensationaling failed: ${detail}`);
   }
 }

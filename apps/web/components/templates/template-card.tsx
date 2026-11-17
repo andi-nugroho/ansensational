@@ -28,7 +28,7 @@ export function TemplateCard({ template, index }: TemplateCardProps) {
   const [copied, setCopied] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const scaffoldCommand = `npx ansensational @${template._username}/${template.slug}`;
+  const ansensationalCommand = `npx ansensational @${template._username}/${template.slug}`;
   const detailHref = `/templates/${template._username}/${template.slug}`;
   const displayTags = getDisplayTags(template);
   const initial = template.author.name.charAt(0).toUpperCase();
@@ -37,7 +37,7 @@ export function TemplateCard({ template, index }: TemplateCardProps) {
     e.preventDefault();
     e.stopPropagation();
     try {
-      await navigator.clipboard.writeText(scaffoldCommand);
+      await navigator.clipboard.writeText(ansensationalCommand);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
@@ -140,7 +140,7 @@ export function TemplateCard({ template, index }: TemplateCardProps) {
             <button
               type="button"
               onClick={copyCommand}
-              aria-label={`Copy command to scaffold ${template.name}`}
+              aria-label={`Copy command to ansensational ${template.name}`}
               className={cn(
                 "pointer-events-auto flex w-full items-center justify-between gap-3 rounded-lg border px-3 py-2 text-left font-mono text-[11px] transition-all",
                 copied
@@ -150,7 +150,7 @@ export function TemplateCard({ template, index }: TemplateCardProps) {
             >
               <span className="flex min-w-0 items-center gap-2">
                 <FaTerminal className="shrink-0 text-[10px] text-neutral-600" />
-                <span className="truncate">{scaffoldCommand}</span>
+                <span className="truncate">{ansensationalCommand}</span>
               </span>
               {copied ? (
                 <span className="flex shrink-0 items-center gap-1.5 text-[10px] uppercase tracking-wider">

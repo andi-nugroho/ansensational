@@ -20,7 +20,7 @@ const steps = [
   { type: "process", text: "Downloading template from registry..." },
   { type: "process", text: "Installing dependencies..." },
   { type: "process", text: "Initializing git repository..." },
-  { type: "success", text: "Successfully scaffolded my-app!" },
+  { type: "success", text: "Successfully ansensationaled my-app!" },
   { type: "info", text: "cd my-app" },
   { type: "info", text: "pnpm dev" },
 ];

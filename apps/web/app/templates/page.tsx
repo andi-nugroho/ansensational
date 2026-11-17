@@ -21,7 +21,7 @@ interface TemplatesPageProps {
 export const metadata: Metadata = {
   title: "Browse project templates",
   description:
-    "Browse production-ready starter templates from the community. Filter by framework, type, and stack, then scaffold with a single command.",
+    "Browse production-ready starter templates from the community. Filter by framework, type, and stack, then ansensational with a single command.",
   alternates: {
     canonical: "/templates",
   },
