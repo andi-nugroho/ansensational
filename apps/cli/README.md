@@ -58,7 +58,7 @@ ansensational sync
 ansensational list --remote
 
 # Scaffold one
-ansensational @itstheanurag/nest-backend my-app
+ansensational @andi-nugroho/nest-backend my-app
 ```
 
 ## Commands
@@ -86,13 +86,13 @@ when the slug is unique.
 
 ```bash
 # Non-interactive setup for CI or scripts
-ansensational @ayushchugh/backend my-api --git fresh --pm pnpm --yes
+ansensational @andi-nugroho/backend my-api --git fresh --pm pnpm --yes
 
 # Scaffold into the current (empty) directory
-ansensational @ayushchugh/webapp .
+ansensational @andi-nugroho/webapp .
 
 # Add files to an existing directory (explicit opt-in)
-ansensational @ayushchugh/webapp ./existing --force
+ansensational @andi-nugroho/webapp ./existing --force
 ```
 
 Without `--git`, the CLI prompts when running in a terminal and uses `fresh`
@@ -109,8 +109,8 @@ ansensational list --remote
 
 # Filter by type, framework, or author
 ansensational list --type backend --framework nestjs
-ansensational list --author itstheanurag
-ansensational list --author @ravixstudio
+ansensational list --author andi-nugroho
+ansensational list --author @andi-nugroho
 
 # Search names, descriptions, tags, features, and authors
 ansensational search postgres
@@ -121,8 +121,8 @@ ansensational list --remote --json
 ansensational search hono --json
 ```
 
-`--author` accepts both the registry username (for example `ayushchugh`) and
-the author's GitHub handle (for example `ravixstudio`).
+`--author` accepts both the registry username (for example `andi-nugroho`) and
+the author's GitHub handle (for example `andi-nugroho`).
 
 ### Add a local template
 
@@ -199,17 +199,17 @@ templates.
 ## Contributing templates
 
 The community registry lives in
-[`content/templates`](https://github.com/itstheanurag/scaffoldor/tree/main/content/templates).
+[`content/templates`](https://github.com/andi-nugroho/ansensational/tree/main/content/templates).
 Add your template's JSON file and open a pull request. See the
-[template contribution guide](https://github.com/itstheanurag/scaffoldor/blob/main/content/templates/CONTRIBUTING.md).
+[template contribution guide](https://github.com/andi-nugroho/ansensational/blob/main/content/templates/CONTRIBUTING.md).
 
 ## Links
 
 - [Website and template directory](https://ansensational.vercel.app)
-- [Source code](https://github.com/itstheanurag/scaffoldor)
-- [Issues](https://github.com/itstheanurag/scaffoldor/issues)
+- [Source code](https://github.com/andi-nugroho/ansensational)
+- [Issues](https://github.com/andi-nugroho/ansensational/issues)
 - [Changelog](./CHANGELOG.md)
 
 ## License
 
-Apache-2.0 © Ansensational Contributors
+MIT © ANSensational Contributors

@@ -13,7 +13,7 @@ export function Footer() {
       <footer className="w-full border-t border-neutral-800 bg-neutral-950 py-6 md:py-0">
         <div className="container mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 md:h-16 md:flex-row">
           <p className="text-center text-sm leading-loose text-gray-400 md:text-left">
-            Built by the community. Licensed under Apache-2.0.
+            Built by the community. 
           </p>
 
           <nav className="flex gap-4 sm:gap-6">

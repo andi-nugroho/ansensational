@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   description: SITE_DESCRIPTION,
   keywords: SITE_KEYWORDS,
   applicationName: SITE_NAME,
-  authors: [{ name: "Ansensational Contributors", url: SITE_URL }],
-  creator: "Ansensational Contributors",
+  authors: [{ name: "ANSensational Contributors", url: SITE_URL }],
+  creator: "ANSensational Contributors",
   openGraph: {
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,

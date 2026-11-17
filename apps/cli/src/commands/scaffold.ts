@@ -116,7 +116,7 @@ export async function scaffoldCommand(
   const parsed = parseTemplateSlug(slugInput);
   if (!parsed) {
     throw new CliError(
-      `Invalid template format: ${slugInput}\nUse @author/slug or author/slug (for example @itstheanurag/nest-backend).`,
+      `Invalid template format: ${slugInput}\nUse @author/slug or author/slug (for example @andi-nugroho/nest-backend).`,
     );
   }
 

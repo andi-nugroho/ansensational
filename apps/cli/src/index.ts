@@ -26,7 +26,7 @@ program
 program
   .command("scaffold", { isDefault: true })
   .description("Scaffold a template (default command)")
-  .argument("[slug]", "Template slug (e.g., @ayushchugh/backend)")
+  .argument("[slug]", "Template slug (e.g., @andi-nugroho/backend)")
   .argument("[dest]", "Destination directory")
   .option(
     "-g, --git <strategy>",
@@ -98,7 +98,7 @@ program.addHelpText(
   "after",
   `
 Examples:
-  $ ansensational @itstheanurag/nest-backend my-app
+  $ ansensational @andi-nugroho/nest-backend my-app
   $ ansensational list --remote --type backend
   $ ansensational search nextjs --framework nextjs
   $ ansensational add my-template https://github.com/me/my-template --type fullstack

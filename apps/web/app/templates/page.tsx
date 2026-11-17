@@ -50,7 +50,7 @@ export default async function TemplatesPage({
   const collectionData = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Ansensational template registry",
+    name: "ANSensational template registry",
     description: SITE_DESCRIPTION,
     url: `${SITE_URL}/templates`,
     isPartOf: {

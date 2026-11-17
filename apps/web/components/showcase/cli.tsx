@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 const steps = [
   {
     type: "command",
-    text: "npx ansensational @ayushchugh/backend my-app",
+    text: "npx ansensational @andi-nugroho/backend my-app",
   },
   { type: "output", text: " " },
   {

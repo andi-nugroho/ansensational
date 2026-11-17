@@ -92,13 +92,13 @@ when the slug is unique.
 
 ```bash
 # Non-interactive setup for CI or scripts
-ansensational @ayushchugh/backend my-api --git fresh --pm pnpm --yes
+ansensational @andi-nugroho/backend my-api --git fresh --pm pnpm --yes
 
 # Scaffold into the current (empty) directory
-ansensational @ayushchugh/webapp .
+ansensational @andi-nugroho/webapp .
 
 # Add files to an existing directory (explicit opt-in)
-ansensational @ayushchugh/webapp ./existing --force
+ansensational @andi-nugroho/webapp ./existing --force
 
 # Register a repository URL (branches and subdirectories supported), then use it
 ansensational add web-app https://github.com/owner/repo/tree/main/apps/web
@@ -119,7 +119,7 @@ ansensational list --remote
 
 # Filter by type, framework, or author
 ansensational list --type backend --framework nestjs
-ansensational list --author itstheanurag
+ansensational list --author andi-nugroho
 
 # Machine-readable output
 ansensational list --remote --json

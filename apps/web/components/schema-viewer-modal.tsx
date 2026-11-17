@@ -50,7 +50,7 @@ export function SchemaViewerModal({ isOpen, onClose }: SchemaViewerModalProps) {
     >
       <DialogContent className="w-[calc(100vw-1.5rem)] max-w-5xl gap-0 overflow-hidden border-neutral-800 bg-neutral-950 p-0 sm:rounded-2xl">
         <DialogTitle className="sr-only">
-          Ansensational registry schema
+          ANSensational registry schema
         </DialogTitle>
         <DialogDescription className="sr-only">
           Browse the fields, constraints, and example JSON for contributing a

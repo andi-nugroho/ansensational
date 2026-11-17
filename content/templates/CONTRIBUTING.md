@@ -1,4 +1,4 @@
-# Contributing Templates to Ansensational
+# Contributing Templates to ANSensational
 
 We welcome community contributions! The registry is organized by username, making it easy to manage your own templates.
 

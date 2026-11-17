@@ -63,7 +63,7 @@ export function Navbar() {
             <Link href="/" className="mr-6 flex items-center gap-2 group">
               <FaCube className="size-6 text-neutral-200" />
               <span className="font-bold text-xl tracking-tight text-neutral-200 hidden sm:block">
-                Ansensational
+                ANSensational
               </span>
             </Link>
 
