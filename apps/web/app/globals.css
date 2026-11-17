@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --background: oklch(14.5% 0 0);
+  --foreground: oklch(88% 0 0);
+
+  /* Selection */
+  --selection-bg: oklch(32% 0.02 250);
+  --selection-fg: oklch(98% 0 0);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+::selection {
+  background-color: color-mix(
+    in oklch,
+    var(--selection-bg) 85%,
+    transparent
+  );
+  color: var(--selection-fg);
+}

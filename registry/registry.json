@@ -1,0 +1,176 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-10-27T02:17:44.122Z",
+  "templates": {
+    "ayushchugh": [
+      {
+        "slug": "backend",
+        "name": "backend template",
+        "url": "https://github.com/ravixstudio/backend-template",
+        "platform": "github",
+        "type": "backend",
+        "framework": "hono",
+        "description": "Production-ready Bun + Hono + TypeScript monorepo template with PostgreSQL, Drizzle ORM, OAuth authentication, and shared packages for scalable backend services.",
+        "tags": [
+          "hono",
+          "bun",
+          "drizzle",
+          "postgresql",
+          "oauth",
+          "prometheus",
+          "grafana",
+          "zod",
+          "typescript",
+          "openai/scalar"
+        ],
+        "features": [
+          "auth",
+          "modular-architecture",
+          "typesafe",
+          "database",
+          "monitoring",
+          "logging",
+          "oauth"
+        ],
+        "author": {
+          "name": "Ayush Chugh",
+          "github": "ravixstudio"
+        },
+        "tier": "free",
+        "license": "MIT"
+      },
+      {
+        "slug": "roots",
+        "name": "roots template",
+        "url": "https://github.com/ravixstudio/roots-template",
+        "platform": "github",
+        "type": "fullstack",
+        "framework": "nextjs",
+        "description": "Production ready dashboard template for operations team of any startup",
+        "tags": [
+          "nextjs",
+          "typescript",
+          "zustand",
+          "tanstack-query",
+          "bun",
+          "zod",
+          "baseui",
+          "shadcn/ui"
+        ],
+        "features": [
+          "auth",
+          "rbac",
+          "data-tables",
+          "typesafe",
+          "darkmode",
+          "modular-architecture"
+        ],
+        "author": {
+          "name": "Ayush Chugh",
+          "github": "ravixstudio"
+        },
+        "tier": "free",
+        "license": "MIT"
+      },
+      {
+        "slug": "webapp",
+        "name": "webapp template",
+        "url": "https://github.com/ravixstudio/webapp-template",
+        "platform": "github",
+        "type": "fullstack",
+        "framework": "nextjs",
+        "description": "Production ready NextJS + Shadcn template",
+        "tags": [
+          "nextjs",
+          "typescript",
+          "zustand",
+          "tanstack-query",
+          "bun",
+          "zod",
+          "baseui",
+          "shadcn/ui"
+        ],
+        "features": [
+          "auth",
+          "rbac",
+          "data-tables",
+          "typesafe",
+          "darkmode",
+          "modular-architecture"
+        ],
+        "author": {
+          "name": "Ayush Chugh",
+          "github": "ravixstudio"
+        },
+        "tier": "free",
+        "license": "MIT"
+      }
+    ],
+    "itstheanurag": [
+      {
+        "slug": "elysia-backend",
+        "name": "elysia backend template",
+        "url": "https://github.com/itstheanurag/elysia-backend-express",
+        "platform": "github",
+        "type": "backend",
+        "framework": "elysia",
+        "description": "Production ready Elysia + Bun + TypeScript template. It implements repository pattern, distributed rate limiting with the redis + sliding window algorithm, the application is containerized with docker and docker-compose. Redis support, Server Factory, OpenApi Documentation.",
+        "tags": [
+          "typescript",
+          "bun",
+          "postgres",
+          "redis",
+          "drizzle",
+          "elysia",
+          "openai"
+        ],
+        "features": [
+          "auth",
+          "rbac",
+          "typesafe",
+          "modular-architecture"
+        ],
+        "author": {
+          "name": "Gaurav Kumar",
+          "github": "itstheanurag"
+        },
+        "tier": "free",
+        "license": "MIT"
+      },
+      {
+        "slug": "nest-backend",
+        "name": "NestJS Backend Template",
+        "url": "https://github.com/itstheanurag/nest-template-backend",
+        "platform": "github",
+        "type": "backend",
+        "framework": "nestjs",
+        "description": "Production-ready NestJS 11 boilerplate featuring Fastify, Drizzle ORM, Better-Auth, and BullMQ. Implements repository pattern, distributed background workers, and automated OpenAPI documentation with a custom Server Factory and Docker orchestration.",
+        "tags": [
+          "typescript",
+          "nestjs",
+          "fastify",
+          "postgres",
+          "redis",
+          "drizzle",
+          "docker",
+          "bullmq",
+          "swc"
+        ],
+        "features": [
+          "auth",
+          "background-jobs",
+          "typesafe",
+          "modular-architecture",
+          "graceful-shutdown",
+          "multi-container-docker"
+        ],
+        "author": {
+          "name": "Gaurav Kumar",
+          "github": "itstheanurag"
+        },
+        "tier": "free",
+        "license": "MIT"
+      }
+    ]
+  }
+}
