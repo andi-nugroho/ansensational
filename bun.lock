@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "ansensational-app",
+      "name": "ansensational-apps",
       "dependencies": {
         "motion": "^12.23.27",
       },
