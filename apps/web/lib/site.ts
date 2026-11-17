@@ -6,31 +6,31 @@ export const SITE_URL = (
   process.env.NEXT_PUBLIC_SITE_URL || "https://ansensational.vercel.app"
 ).replace(/\/+$/, "");
 
-export const SITE_NAME = "Ansensational";
+export const SITE_NAME = "ANSensational";
 
-export const SITE_TITLE = "Ansensational — Production-ready project templates";
+export const SITE_TITLE = "ANSensational — Production-ready project templates";
 
 export const SITE_DESCRIPTION =
-  "Discover and scaffold production-ready project templates from GitHub and GitLab. Browse by framework, copy one command, and start with a clean project.";
+  "Discover and ansensational production-ready project templates from GitHub and GitLab. Browse by framework, copy one command, and start with a clean project.";
 
 export const SITE_KEYWORDS = [
   "ansensational",
   "project templates",
-  "scaffolding",
+  "ANSfolding",
   "boilerplate",
   "starter kit",
   "github templates",
   "gitlab templates",
   "nextjs template",
   "typescript starter",
-  "cli scaffolding",
+  "cli ansfolding",
 ];
 
 export const SOCIAL_IMAGE = {
   url: "/ansensational.png",
   width: 1200,
   height: 630,
-  alt: "Ansensational — production-ready project templates",
+  alt: "ANSensational — production-ready project templates",
 };
 
 export function absoluteUrl(path = "/"): string {

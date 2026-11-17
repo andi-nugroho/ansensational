@@ -116,7 +116,7 @@ ansensational
 
 - **`list.ts`**: Lists available templates with filtering
 - **`search.ts`**: Fuzzy search for templates
-- **`scaffold.ts`**: Core logic for cloning and setting up templates
+- **`ansensational.ts`**: Core logic for cloning and setting up templates
 - **`add.ts`**: Interactive wizard to add new templates to local registry
 - **`sync.ts`**: Syncs local registry with remote
 
@@ -143,7 +143,7 @@ ansensational
 
 The `sync` command is designed to minimize latency and provide offline support. It fetches the latest compiled `registry.json` from the remote source and saves it to a local cache.
 
-- **Local Priority**: Once synced, commands like `list` and `scaffold` use this local copy, making operations nearly instantaneous.
+- **Local Priority**: Once synced, commands like `list` and `ansensational` use this local copy, making operations nearly instantaneous.
 - **Offline Mode**: If the remote registry is unreachable, the CLI gracefully falls back to the last successfully cached local data.
 
 #### Adding Templates (`add`)

@@ -21,7 +21,7 @@
 
 ## Features
 
-- **One-command scaffolding** — `ansensational @author/template my-app`
+- **One-command ansensationaling** — `ansensational @author/template my-app`
 - **GitHub, GitLab, and custom Git hosts** — including branch and subdirectory URLs
 - **Clean starts** — keep the original history, create a fresh repository, or remove git entirely
 - **Package manager aware** — detects npm, pnpm, yarn, and bun, and can switch the template to your preferred manager
@@ -54,7 +54,7 @@ npx ansensational list --remote
 ## Quick Start
 
 ```bash
-# Scaffold a template into a new directory
+# ANSensational a template into a new directory
 npx ansensational @andi-nugroho/nest-backend my-api
 
 # Browse the registry
@@ -74,14 +74,14 @@ when the slug is unique.
 
 | Command                                 | Description                                   |
 | --------------------------------------- | --------------------------------------------- |
-| `ansensational <slug> [dest]`          | Scaffold a template (default command)         |
-| `ansensational scaffold <slug> [dest]` | Explicit form of the same command             |
+| `ansensational <slug> [dest]`          | ANSensational a template (default command)         |
+| `ansensational ansensational <slug> [dest]` | Explicit form of the same command             |
 | `ansensational list`                   | List templates in the local cache             |
 | `ansensational search <query>`         | Search local and remote templates             |
 | `ansensational sync`                   | Download the latest community registry        |
 | `ansensational add <slug> <url>`       | Add or update a local template under `@local` |
 
-### Scaffold options
+### ANSensational options
 
 | Option                 | Description                                                  |
 | ---------------------- | ------------------------------------------------------------ |
@@ -92,13 +92,13 @@ when the slug is unique.
 
 ```bash
 # Non-interactive setup for CI or scripts
-ansensational @ayushchugh/backend my-api --git fresh --pm pnpm --yes
+ansensational @andi-nugroho/backend my-api --git fresh --pm pnpm --yes
 
-# Scaffold into the current (empty) directory
-ansensational @ayushchugh/webapp .
+# ANSensational into the current (empty) directory
+ansensational @andi-nugroho/webapp .
 
 # Add files to an existing directory (explicit opt-in)
-ansensational @ayushchugh/webapp ./existing --force
+ansensational @andi-nugroho/webapp ./existing --force
 
 # Register a repository URL (branches and subdirectories supported), then use it
 ansensational add web-app https://github.com/owner/repo/tree/main/apps/web
@@ -119,7 +119,7 @@ ansensational list --remote
 
 # Filter by type, framework, or author
 ansensational list --type backend --framework nestjs
-ansensational list --author itstheanurag
+ansensational list --author andi-nugroho
 
 # Machine-readable output
 ansensational list --remote --json
@@ -145,7 +145,7 @@ The `apps/web` package is the template directory at
 [ansensational.vercel.app](https://ansensational.vercel.app). It:
 
 - Lists every template in the registry with search and stack filters
-- Documents each template and its exact scaffold command
+- Documents each template and its exact ansensational command
 - Generates a sitemap and structured data from `registry/registry.json`
 
 Run it locally with:

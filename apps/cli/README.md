@@ -5,7 +5,7 @@
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Node.js](https://img.shields.io/node/v/ansensational.svg)](https://nodejs.org/)
 
-**Scaffold new projects from GitHub or GitLab templates with a single command.**
+**ANSensational new projects from GitHub or GitLab templates with a single command.**
 
 Ansensational is a community-driven template registry and CLI. Discover a
 template, clone it into a clean project, choose how git and your package
@@ -13,7 +13,7 @@ manager should be handled, and start building.
 
 ## Features
 
-- **One-command scaffolding** — `ansensational @author/template my-app`
+- **One-command ansensationaling** — `ansensational @author/template my-app`
 - **GitHub, GitLab, and custom Git hosts** — including URLs that point at a
   branch or subdirectory.
 - **Clean starts** — keep the original history, create a fresh repository, or
@@ -57,16 +57,16 @@ ansensational sync
 # Browse templates
 ansensational list --remote
 
-# Scaffold one
-ansensational @itstheanurag/nest-backend my-app
+# ANSensational one
+ansensational @andi-nugroho/nest-backend my-app
 ```
 
 ## Commands
 
 | Command                                 | Description                                     |
 | --------------------------------------- | ----------------------------------------------- |
-| `ansensational <slug> [dest]`          | Scaffold a template (default command)           |
-| `ansensational scaffold <slug> [dest]` | Explicit form of the same command               |
+| `ansensational <slug> [dest]`          | ANSensational a template (default command)           |
+| `ansensational ansensational <slug> [dest]` | Explicit form of the same command               |
 | `ansensational list`                   | List templates in the local cache               |
 | `ansensational search <query>`         | Search local and remote templates               |
 | `ansensational sync`                   | Download the latest community registry          |
@@ -75,7 +75,7 @@ ansensational @itstheanurag/nest-backend my-app
 Templates can be referenced as `@author/slug`, `author/slug`, or a bare `slug`
 when the slug is unique.
 
-### Scaffold options
+### ANSensational options
 
 | Option                 | Description                                                  |
 | ---------------------- | ------------------------------------------------------------ |
@@ -86,13 +86,13 @@ when the slug is unique.
 
 ```bash
 # Non-interactive setup for CI or scripts
-ansensational @ayushchugh/backend my-api --git fresh --pm pnpm --yes
+ansensational @andi-nugroho/backend my-api --git fresh --pm pnpm --yes
 
-# Scaffold into the current (empty) directory
-ansensational @ayushchugh/webapp .
+# ANSensational into the current (empty) directory
+ansensational @andi-nugroho/webapp .
 
 # Add files to an existing directory (explicit opt-in)
-ansensational @ayushchugh/webapp ./existing --force
+ansensational @andi-nugroho/webapp ./existing --force
 ```
 
 Without `--git`, the CLI prompts when running in a terminal and uses `fresh`
@@ -109,8 +109,8 @@ ansensational list --remote
 
 # Filter by type, framework, or author
 ansensational list --type backend --framework nestjs
-ansensational list --author itstheanurag
-ansensational list --author @ravixstudio
+ansensational list --author andi-nugroho
+ansensational list --author @andi-nugroho
 
 # Search names, descriptions, tags, features, and authors
 ansensational search postgres
@@ -121,8 +121,8 @@ ansensational list --remote --json
 ansensational search hono --json
 ```
 
-`--author` accepts both the registry username (for example `ayushchugh`) and
-the author's GitHub handle (for example `ravixstudio`).
+`--author` accepts both the registry username (for example `andi-nugroho`) and
+the author's GitHub handle (for example `andi-nugroho`).
 
 ### Add a local template
 
@@ -199,17 +199,17 @@ templates.
 ## Contributing templates
 
 The community registry lives in
-[`content/templates`](https://github.com/itstheanurag/scaffoldor/tree/main/content/templates).
+[`content/templates`](https://github.com/andi-nugroho/ansensational/tree/main/content/templates).
 Add your template's JSON file and open a pull request. See the
-[template contribution guide](https://github.com/itstheanurag/scaffoldor/blob/main/content/templates/CONTRIBUTING.md).
+[template contribution guide](https://github.com/andi-nugroho/ansensational/blob/main/content/templates/CONTRIBUTING.md).
 
 ## Links
 
 - [Website and template directory](https://ansensational.vercel.app)
-- [Source code](https://github.com/itstheanurag/scaffoldor)
-- [Issues](https://github.com/itstheanurag/scaffoldor/issues)
+- [Source code](https://github.com/andi-nugroho/ansensational)
+- [Issues](https://github.com/andi-nugroho/ansensational/issues)
 - [Changelog](./CHANGELOG.md)
 
 ## License
 
-Apache-2.0 © Ansensational Contributors
+MIT © ANSensational Contributors

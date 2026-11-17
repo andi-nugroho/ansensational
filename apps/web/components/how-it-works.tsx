@@ -70,7 +70,7 @@ export function HowItWorks() {
           >
             <span className="text-blue-400">➜</span>{" "}
             <span className="text-neutral-400">~</span> npx ansensational
-            @ayushchugh/backend
+            @andi-nugroho/backend
             <motion.span
               animate={{ opacity: [0, 1, 0] }}
               transition={{ repeat: Infinity, duration: 0.8 }}
@@ -152,7 +152,7 @@ export function HowItWorks() {
           How it works
         </h2>
         <p className="text-neutral-400 text-balance max-w-3xl">
-          Ansensational is a community-driven template registry and CLI tool that
+          ANSensational is a community-driven template registry and CLI tool that
           handles the clean setup, so you can focus on building the future.
         </p>
         <motion.div

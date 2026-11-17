@@ -1,7 +1,7 @@
 {
   "name": "ansensational",
   "version": "1.1.0",
-  "description": "Scaffold new projects from GitHub or GitLab templates with a single command",
+  "description": "ANSensational new projects from GitHub or GitLab templates with a single command",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -13,8 +13,7 @@
     "./package.json": "./package.json"
   },
   "bin": {
-    "ansensational": "dist/index.js",
-    "scaffoldor": "dist/index.js"
+    "ansensational": "dist/index.js"
   },
   "scripts": {
     "build": "tsup",
@@ -26,8 +25,8 @@
   },
   "keywords": [
     "cli",
-    "scaffold",
-    "scaffolding",
+    "ansensational",
+    "ansensationaling",
     "template",
     "templates",
     "generator",
@@ -46,16 +45,16 @@
     "typescript",
     "developer-tools"
   ],
-  "author": "Ansensational Contributors",
+  "author": "Andi Nugroho",
   "license": "Apache-2.0",
   "homepage": "https://ansensational.vercel.app",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itstheanurag/scaffoldor.git",
+    "url": "git+https://github.com/andi-nugroho/ansensational.git",
     "directory": "apps/cli"
   },
   "bugs": {
-    "url": "https://github.com/itstheanurag/scaffoldor/issues"
+    "url": "https://github.com/andi-nugroho/ansensational/issues"
   },
   "publishConfig": {
     "access": "public"

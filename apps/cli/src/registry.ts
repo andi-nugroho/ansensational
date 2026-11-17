@@ -14,7 +14,7 @@ import { CliError } from "./helpers/errors";
 import { VERSION } from "./version";
 
 const DEFAULT_REGISTRY_URL =
-  "https://raw.githubusercontent.com/itstheanurag/scaffoldor/main/registry/registry.json";
+  "https://raw.githubusercontent.com/andi-nugroho/ansensational/main/registry/registry.json";
 
 /**
  * Local data directory. `ANSENSATIONAL_HOME` is primarily useful for CI and

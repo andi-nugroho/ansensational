@@ -89,5 +89,5 @@ export async function addCommand(
       updated ? "updated in" : "added to"
     } your local registry.`,
   );
-  UI.dim(`Scaffold it with: ansensational @${LOCAL_AUTHOR}/${result.data.slug}`);
+  UI.dim(`ANSensational it with: ansensational @${LOCAL_AUTHOR}/${result.data.slug}`);
 }

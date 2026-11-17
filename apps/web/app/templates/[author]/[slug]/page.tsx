@@ -52,7 +52,7 @@ export async function generateMetadata({
   const title = `${toTitleCase(template.name)} — ${formatFramework(template.framework)} template`;
   const description =
     template.description ||
-    `Scaffold the ${toTitleCase(template.name)} template by ${template.author.name} with one command.`;
+    `ANSfold the ${toTitleCase(template.name)} template by ${template.author.name} with one command.`;
 
   return {
     title,
@@ -107,7 +107,7 @@ export default async function TemplatePage({ params }: TemplatePageProps) {
     },
     isPartOf: {
       "@type": "CollectionPage",
-      name: "Ansensational template registry",
+      name: "ANSensational template registry",
       url: `${SITE_URL}/templates`,
     },
   };
@@ -246,7 +246,7 @@ export default async function TemplatePage({ params }: TemplatePageProps) {
                 How it works
               </h2>
               <p className="mt-4 max-w-2xl text-sm leading-relaxed text-neutral-400">
-                Ansensational clones the repository into a temporary directory,
+                ANSensational clones the repository into a temporary directory,
                 strips the original git history, applies your package manager
                 choice, and moves the result into your destination. Nothing is
                 written until the command succeeds.

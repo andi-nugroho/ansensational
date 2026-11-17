@@ -57,7 +57,7 @@ export const schemaFields: SchemaField[] = [
     group: "core",
     required: true,
     description:
-      "Unique identifier for CLI usage. It is the last segment of the scaffold command.",
+      "Unique identifier for CLI usage. It is the last segment of the ansensational command.",
     constraint: "lowercase letters, numbers, and hyphens only",
     example: "my-awesome-template",
   },

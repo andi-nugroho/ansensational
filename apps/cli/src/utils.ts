@@ -419,7 +419,7 @@ export async function initNewGitRepo(dir: string): Promise<boolean> {
 
 /**
  * npm package names must be lowercase and cannot contain spaces. Derive a
- * safe name from the destination folder without rejecting the scaffold.
+ * safe name from the destination folder without rejecting the ansensational.
  */
 export function toPackageName(folderName: string): string {
   const name = folderName

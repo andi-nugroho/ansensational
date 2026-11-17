@@ -35,7 +35,7 @@ export async function generateMetadata({
   const authorName = templates[0]?.author?.name || author;
   const description = `Browse ${templates.length} production-ready template${
     templates.length === 1 ? "" : "s"
-  } published by ${authorName} on Ansensational.`;
+  } published by ${authorName} on ANSensational.`;
 
   return {
     title: `${authorName}'s templates`,
