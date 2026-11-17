@@ -26,5 +26,6 @@
   ],
   "dependencies": {
     "motion": "^12.23.27"
-  }
+  },
+  "version": "1.0.0"
 }
