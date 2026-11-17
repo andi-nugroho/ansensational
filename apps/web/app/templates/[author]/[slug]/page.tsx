@@ -85,7 +85,7 @@ export default async function TemplatePage({ params }: TemplatePageProps) {
   }
 
   const templateFullSlug = `@${author}/${slug}`;
-  const scaffoldCommand = `npx ansensational ${templateFullSlug}`;
+  const ansensationalCommand = `npx ansensational ${templateFullSlug}`;
   const githubHandle = template.author.github || author;
   const authorUrl = `https://github.com/${githubHandle}`;
   const displayTags = getDisplayTags(template);
@@ -265,7 +265,7 @@ export default async function TemplatePage({ params }: TemplatePageProps) {
               </p>
 
               <div className="mt-4">
-                <CopyCommand command={scaffoldCommand} label="Copy" />
+                <CopyCommand command={ansensationalCommand} label="Copy" />
               </div>
 
               <Button

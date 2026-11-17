@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "scaffoldor-app",
+      "name": "ansensational-app",
       "dependencies": {
         "motion": "^12.23.27",
       },
@@ -16,10 +16,9 @@
     },
     "apps/cli": {
       "name": "ansensational",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "bin": {
         "ansensational": "dist/index.js",
-        "scaffoldor": "dist/index.js",
       },
       "dependencies": {
         "commander": "^12.1.0",

@@ -20,30 +20,21 @@ const DEFAULT_REGISTRY_URL =
  * Local data directory. `ANSENSATIONAL_HOME` is primarily useful for CI and
  * tests, but power users can use it to keep multiple registries around.
  */
-const configuredHome = (
-  process.env.ANSENSATIONAL_HOME || process.env.SCAFFOLDOR_HOME
-)?.trim();
+const configuredHome = process.env.ANSENSATIONAL_HOME?.trim();
 
 export const ANSENSATIONAL_DIR = configuredHome
   ? path.resolve(configuredHome)
   : path.join(os.homedir(), ".ansensational");
-export const SCAFFOLDOR_DIR = ANSENSATIONAL_DIR;
 
 export const LOCAL_REGISTRY_PATH = path.join(ANSENSATIONAL_DIR, "registry.json");
 
 export const LOCAL_AUTHOR = "local";
 
 export const REMOTE_REGISTRY_URL =
-  (
-    process.env.ANSENSATIONAL_REGISTRY_URL ||
-    process.env.SCAFFOLDOR_REGISTRY_URL
-  )?.trim() || DEFAULT_REGISTRY_URL;
+  process.env.ANSENSATIONAL_REGISTRY_URL?.trim() || DEFAULT_REGISTRY_URL;
 
 const FETCH_TIMEOUT_MS = (() => {
-  const configured = Number(
-    process.env.ANSENSATIONAL_REGISTRY_TIMEOUT ||
-      process.env.SCAFFOLDOR_REGISTRY_TIMEOUT,
-  );
+  const configured = Number(process.env.ANSENSATIONAL_REGISTRY_TIMEOUT);
   return Number.isFinite(configured) && configured > 0 ? configured : 15_000;
 })();
 
@@ -132,7 +123,7 @@ export async function readLocalRegistry(): Promise<Registry> {
     return result.data;
   } catch {
     const backupPath = path.join(
-      SCAFFOLDOR_DIR,
+      ANSENSATIONAL_DIR,
       `registry.corrupt-${Date.now()}.json`,
     );
 
