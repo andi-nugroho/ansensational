@@ -105,7 +105,7 @@ Examples:
   $ ansensational sync
 
 Documentation:
-  https://github.com/itstheanurag/scaffoldor
+  https://github.com/andi-nugroho/ansensational
 `,
 );
 

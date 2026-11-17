@@ -46,16 +46,16 @@
     "typescript",
     "developer-tools"
   ],
-  "author": "Ansensational Contributors",
+  "author": "Andi Nugroho",
   "license": "Apache-2.0",
   "homepage": "https://ansensational.vercel.app",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itstheanurag/scaffoldor.git",
+    "url": "git+https://github.com/andi-nugroho/ansensational.git",
     "directory": "apps/cli"
   },
   "bugs": {
-    "url": "https://github.com/itstheanurag/scaffoldor/issues"
+    "url": "https://github.com/andi-nugroho/ansensational/issues"
   },
   "publishConfig": {
     "access": "public"
