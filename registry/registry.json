@@ -6,7 +6,7 @@
       {
         "slug": "backend",
         "name": "backend template",
-        "url": "https://github.com/ravixstudio/backend-template",
+        "url": "https://github.com/andi-nugroho/backend-template",
         "platform": "github",
         "type": "backend",
         "framework": "hono",
@@ -33,8 +33,8 @@
           "oauth"
         ],
         "author": {
-          "name": "Ayush Chugh",
-          "github": "ravixstudio"
+          "name": "andreas",
+          "github": "andi-nugroho"
         },
         "tier": "free",
         "license": "MIT"
@@ -42,7 +42,7 @@
       {
         "slug": "roots",
         "name": "roots template",
-        "url": "https://github.com/ravixstudio/roots-template",
+        "url": "https://github.com/andi-nugroho/roots-template",
         "platform": "github",
         "type": "fullstack",
         "framework": "nextjs",
@@ -66,8 +66,8 @@
           "modular-architecture"
         ],
         "author": {
-          "name": "Ayush Chugh",
-          "github": "ravixstudio"
+          "name": "andreas",
+          "github": "andi-nugroho"
         },
         "tier": "free",
         "license": "MIT"
@@ -75,7 +75,7 @@
       {
         "slug": "webapp",
         "name": "webapp template",
-        "url": "https://github.com/ravixstudio/webapp-template",
+        "url": "https://github.com/andi-nugroho/webapp-template",
         "platform": "github",
         "type": "fullstack",
         "framework": "nextjs",
@@ -99,8 +99,8 @@
           "modular-architecture"
         ],
         "author": {
-          "name": "Ayush Chugh",
-          "github": "ravixstudio"
+          "name": "andreas",
+          "github": "andi-nugroho"
         },
         "tier": "free",
         "license": "MIT"
@@ -110,7 +110,7 @@
       {
         "slug": "elysia-backend",
         "name": "elysia backend template",
-        "url": "https://github.com/itstheanurag/elysia-backend-express",
+        "url": "https://github.com/andi-nugroho/elysia-backend-express",
         "platform": "github",
         "type": "backend",
         "framework": "elysia",
@@ -131,8 +131,8 @@
           "modular-architecture"
         ],
         "author": {
-          "name": "Gaurav Kumar",
-          "github": "itstheanurag"
+          "name": "andreas",
+          "github": "andi-nugroho"
         },
         "tier": "free",
         "license": "MIT"
@@ -140,7 +140,7 @@
       {
         "slug": "nest-backend",
         "name": "NestJS Backend Template",
-        "url": "https://github.com/itstheanurag/nest-template-backend",
+        "url": "https://github.com/andi-nugroho/nest-template-backend",
         "platform": "github",
         "type": "backend",
         "framework": "nestjs",
@@ -165,8 +165,8 @@
           "multi-container-docker"
         ],
         "author": {
-          "name": "Gaurav Kumar",
-          "github": "itstheanurag"
+          "name": "andreas",
+          "github": "andi-nugroho"
         },
         "tier": "free",
         "license": "MIT"

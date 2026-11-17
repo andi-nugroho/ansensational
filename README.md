@@ -1,7 +1,7 @@
 <p align="center">
-  <h1 align="center">Ansensational</h1>
+  <h1 align="center">ANSensational</h1>
   <p align="center">
-    <strong>Scaffold new projects from GitHub or GitLab templates in one command.</strong>
+    <strong>ANSensational new projects from GitHub or GitLab templates in one command.</strong>
   </p>
   <p align="center">
     Stop bookmarking template URLs. Start building.
@@ -55,7 +55,7 @@ npx ansensational list --remote
 
 ```bash
 # Scaffold a template into a new directory
-npx ansensational @itstheanurag/nest-backend my-api
+npx ansensational @andi-nugroho/nest-backend my-api
 
 # Browse the registry
 npx ansensational list --remote
